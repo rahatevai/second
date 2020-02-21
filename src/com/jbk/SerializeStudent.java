@@ -15,7 +15,7 @@ public class SerializeStudent {
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(s);
 		oos.flush();
-		System.out.println("Serialization is done.......");
+		System.out.println("in serialization.......");
 	}
 	catch(Exception e){
 		e.printStackTrace();
